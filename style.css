@@ -1,0 +1,79 @@
+.navbar {
+  background-color: #0a3e43;
+}
+
+.jumbotron img {
+  width: 190px;
+  border: 2px solid #0a3e43;
+}
+
+.jumbotron {
+  background-image: url("img/bg1.png");
+  background-size: cover;
+  background-position: 0 -150px;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  background-attachment: fixed;
+}
+
+.about {
+  background-color: #0d4a4f;
+  color: white;
+}
+
+.header,
+.nav-link {
+  font-family: "viga";
+}
+
+@media screen and (min-width: 992px) {
+  .nama {
+    position: relative;
+    font-size: 4vw;
+    text-transform: uppercase;
+  }
+
+  .nama::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 597px;
+    width: 0;
+    height: 100%;
+    color: #0d4a4f;
+    border-right: 2px solid #0d4a4f;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+  }
+
+  @keyframes animate {
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+    70%,
+    90% {
+      width: 12%;
+    }
+  }
+}
+
+footer {
+  background-color: #0a3e43;
+  color: white;
+}
+
+.love {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    margin: 0 15px;
+  }
+
+  .gambar {
+    margin-left: 0 10em;
+  }
+}
