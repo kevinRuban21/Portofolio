@@ -28,8 +28,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link" href="#">HOME</a>
-              <a class="nav-link" href="#">ABOUT</a>
-              <a class="nav-link" href="#">GALLERY</a>
+              <a class="nav-link" href="#about">ABOUT</a>
+              <a class="nav-link" href="#galery">GALLERY</a>
+              <a class="nav-link" href="#contact">CONTACT</a>
             </div>
           </div>
         </div>
@@ -42,15 +43,15 @@
         <h1 class="header nama" data-text="Kevin.">Kevin</h1>
         <strong>Student | Web Developer</strong>
         <ul class="sosmed mt-5 me-4">
-          <li><a href="#"><h1><i class="fab fa-facebook fb"></i></h1></a></li>
-          <li><a href="#"><h1><i class="fab fa-instagram ig"></i></h1></a></li>
-          <li><a href="#"><h1><i class="fab fa-github gh"></i></h1></a></li>
+          <li><a href="https://web.facebook.com/Kevin.Ruban.21"><h1><i class="fab fa-facebook fb"></i></h1></a></li>
+          <li><a href="https://www.instagram.com/kevinruban_/"><h1><i class="fab fa-instagram ig"></i></h1></a></li>
+          <li><a href="https://github.com/kevinRuban21"><h1><i class="fab fa-github gh"></i></h1></a></li>
         </ul>
     </div>
     <!-- akhir jumbotron -->
 
     <!-- about -->
-    <div class="about shadow-lg pb-5">
+    <div class="about shadow-lg pb-5 pt-3" id="about">
         <div class="row">
             <div class="col-md-12 pt-5">
                 <h1 class="text-center pb-2 header">ABOUT</h1>       
@@ -68,7 +69,7 @@
     <!-- akhir about -->
 
     <!-- gallery -->
-    <div class="galery">
+    <div class="galery pt-3" id="galery">
           <h1 class="header text-center pt-5">Gallery</h1>
       <div class="row justify-content-center pt-5 gambar">
         <div class="col-sm-3">
@@ -108,9 +109,34 @@
     </div>
     <!-- akhir gallery -->
 
+    <!-- contact -->
+    <div id="contact" class="contact mt-5">
+      <h1 class="header pt-3 text-center">CONTACT</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name :</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name..">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email :</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email..">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Massage :</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="button pb-3">
+            <button type="button" class="btn">Send</button>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!-- akhir contact -->
+
     <!-- footer -->
-    <footer class="text-center mt-5">
-      <p class="py-3">copyright <i class="far fa-copyright"></i> 2021 || Created width <i class="fas fa-heart love"></i> by Kevin Ruban</p>
+    <footer class="text-center">
+      <p class="py-3">copyright <i class="far fa-copyright"></i> 2021 || Created width <i class="fas fa-heart love"></i> by <a href="https://github.com/kevinRuban21" class="nama_footer">Kevin Ruban</a></p>
     </footer>
     <!-- akhir footer -->
 
