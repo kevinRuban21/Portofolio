@@ -30,6 +30,37 @@
   width: 20rem;
 }
 
+.sosmed {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.sosmed {
+  padding-top: 5em;
+}
+
+.sosmed .fb,
+.ig,
+.gh {
+  color: #eaeaea;
+  width: 50px;
+  margin: 10px;
+}
+
+.sosmed .fb:hover {
+  color: #3b5999;
+}
+
+.sosmed .ig:hover {
+  color: #e1306c;
+}
+
+.sosmed .gh:hover {
+  color: #333;
+}
+
 @media screen and (min-width: 992px) {
   .nama {
     position: relative;
