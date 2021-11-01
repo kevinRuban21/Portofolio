@@ -30,6 +30,51 @@
   width: 20rem;
 }
 
+.img1:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img2:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img3:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img4:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img5:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img6:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img7:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img8:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img9:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
 .sosmed {
   text-decoration: none;
   list-style: none;
