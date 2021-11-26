@@ -16,6 +16,10 @@
   background-attachment: fixed;
 }
 
+.my-hero:hover {
+  opacity: 0.8;
+}
+
 .about {
   background-color: #0d4a4f;
   color: white;
@@ -75,31 +79,23 @@
   box-shadow: 1px 3px 7px 5px grey;
 }
 
-.sosmed {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
 .sosmed .fb,
 .ig,
 .gh {
-  color: #eaeaea;
-  width: 50px;
-  margin: 10px;
+  color: #fff;
+  opacity: 0.5;
 }
 
 .sosmed .fb:hover {
-  color: #3b5999;
+  opacity: 0.8;
 }
 
 .sosmed .ig:hover {
-  color: #e1306c;
+  opacity: 0.8;
 }
 
 .sosmed .gh:hover {
-  color: #333;
+  opacity: 0.8;
 }
 
 .contact {
@@ -173,20 +169,14 @@ footer {
     margin: 0 15px;
   }
 
-  .gambar {
-    margin-left: 0 10em;
-  }
-
-  .card {
-    width: 15rem;
-    margin-left: 10em;
+  .nama {
+    text-transform: uppercase;
   }
 }
 
 @media screen and (min-width: 300px) {
-  .card {
-    width: 15rem;
-    margin-left: 5em;
+  .nama {
+    text-transform: uppercase;
   }
 
   .contact {
