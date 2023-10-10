@@ -133,7 +133,7 @@
     content: attr(data-text);
     position: absolute;
     top: 0;
-    left: 597px;
+    left: 590px;
     width: 0;
     height: 100%;
     color: #0d4a4f;
@@ -150,7 +150,7 @@
     }
     70%,
     90% {
-      width: 12%;
+      width: 13%;
     }
   }
 }
